@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>暗記アプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>歴史総合</h1>
+  <input type="checkbox" id="myCheckbox" value="myValue" onchange="control()"> 問題形式を教科書順にする
+  <select id="mySelect" onchange="selectChanged()">
+    <option value=5>5問</option>
+    <option value=10 selected>10問</option>
+    <option value=20>20問</option>
+    <option value=30>30問</option>
+    <option value=50>50問</option>
+    <option value=all>全問</option>
+    <option value=stop>やめる</option>
+  </select>
+    <h3 id="mondaisu">問題数</h3>
+    <h2 id="daimon">大問</h2>
+    <h2 id="mondai">問題</h2>
+    <input type="text" style="width:300px;height:50px;border-style:none;font-size:large;" id="answer" placeholder="Input your answer!" autfocus>
+    <buttom id="ansB">[回答する]</buttom>
+    <h2 id="kaitou-moji">解答</h2>
+    <h2 id="result">正誤判定</h2>
+    <h2 id="memo-moji">+メモ</h2>
+    <h2 id="memo">メモ</h2>
+    <buttom id="next">[次へ]</buttom>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+

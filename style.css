@@ -1,0 +1,11 @@
+body{
+    width:500px;
+    margin-right:auto;
+    margin-left:auto;
+    background-image:url(background1.png);
+    /*background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/u/ummmmmmmmmmm/20220419/20220419235302.png);
+    */background-size: cover;
+}
+ button{
+     padding:5px 20px;
+ }
